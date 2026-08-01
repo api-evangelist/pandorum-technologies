@@ -1,8 +1,25 @@
 aid: pandorum-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pandorum-technologies.png
 name: Pandorum Technologies
-description: Pandorum Technologies is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Pandorum Technologies is a biotechnology company based in Bangalore, India, working in
+  tissue engineering and regenerative medicine under the theme "building blocks of life." Its research
+  and product pipeline spans a bioengineered cornea for corneal disorders, 3D human liver organoids
+  ("mini liver") for drug discovery and disease modeling, and cell-free exosomal therapy for lung
+  regeneration after trauma. The underlying platform combines bio-materials, cellular engineering
+  (mesenchymal stem cell culture), exosome and nanotherapy, and bio-fabrication. It was surfaced in the
+  API Evangelist network as a 500 Global portfolio company; as a therapeutics and research organization
+  it publishes no developer API, documentation, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/pandorum-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,15 +29,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Tissue Engineering
+- Regenerative Medicine
+- Life Sciences
+- Bio-Fabrication
+- Drug Discovery
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/pandorum-technologies-domain-security.yml
 - type: Website
   url: https://pandorum.com
